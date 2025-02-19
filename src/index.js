@@ -9,7 +9,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "v4.jackproxy.fun": dockerHub,
+  "pppppp.jackproxy.fun": dockerHub,
   "quay.jackproxy.fun": "https://quay.io",
   "gcr.jackproxy.fun": "https://gcr.io",
   "k8s-gcr.jackproxy.fun": "https://k8s.gcr.io",
