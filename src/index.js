@@ -9,16 +9,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "pppppp.jackproxy.fun": dockerHub,
-  "quay.jackproxy.fun": "https://quay.io",
-  "gcr.jackproxy.fun": "https://gcr.io",
-  "k8s-gcr.jackproxy.fun": "https://k8s.gcr.io",
-  "k8s.jackproxy.fun": "https://registry.k8s.io",
-  "ghcr.jackproxy.fun": "https://ghcr.io",
-  "cloudsmith.jackproxy.fun": "https://docker.cloudsmith.io",
-  "ecr.jackproxy.fun": "https://public.ecr.aws",
+  "pppppp.rbcss.top": dockerHub,
+  "quay.rbcss.top": "https://quay.io",
+  "gcr.rbcss.top": "https://gcr.io",
+  "k8s-gcr.rbcss.top": "https://k8s.gcr.io",
+  "k8s.rbcss.top": "https://registry.k8s.io",
+  "ghcr.rbcss.top": "https://ghcr.io",
+  "cloudsmith.rbcss.top": "https://docker.cloudsmith.io",
+  "ecr.rbcss.top": "https://public.ecr.aws",
   // staging
-  "docker-staging.jackproxy.fun": dockerHub,
+  "docker-staging.rbcss.top": dockerHub,
 };
 
 function routeByHosts(host) {
